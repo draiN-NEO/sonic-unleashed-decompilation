@@ -2,7 +2,11 @@
 This is a **very early** WIP decompilation of the Xbox 360 version of Sonic Unleashed.
 
 ## Current Status
-The tool that will be used for this project, IDA Pro, is perfectly capable of creating a disassembly for this game based on its XEX file. However, its decompiler addon is not compatible with all of the instructions used by the Xenon CPU, which is a built-in limitation of the [addon](https://hex-rays.com/products/decompiler/manual/limit.shtml). Because of this, about 15.4% (9,750 of 63,229) of the functions used in the game cannot have proper pseudocode created for them. Therefore, a microcode filter for the Hex-Rays Decompiler must be developed to add support for the unimplemented instructions. Unfortunately, I am relatively inexperienced working with the IDA SDK so if anyone is experienced with creating plugins for IDA and has extensive knowledge of PPC assembly, consider joining the Discord server and helping with the creation of this plugin so further progress can be made.
+The tool that will be used for this project, IDA Pro, is perfectly capable of creating a disassembly for this game based on its XEX file. However, its decompiler addon is not compatible with all of the instructions used by the Xenon CPU, which is a built-in limitation of the [addon](https://hex-rays.com/products/decompiler/manual/limit.shtml). 
+
+Because of this, about 15.4% (9,750 of 63,229) of the functions used in the game cannot have proper pseudocode created for them. Therefore, a microcode filter for the Hex-Rays Decompiler must be developed to add support for the unimplemented instructions.
+
+Unfortunately, I am relatively inexperienced working with the IDA SDK so if anyone is experienced with creating plugins for IDA and has extensive knowledge of PPC assembly, consider joining the Discord server and helping with the creation of this plugin so further progress can be made.
 
 
 ## Goals
