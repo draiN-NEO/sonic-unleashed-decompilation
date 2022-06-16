@@ -1,4 +1,4 @@
-# Sonic Unleashed/Sonic World Adevnture
+# Sonic Unleashed/Sonic World Adventure
 This is a **very early** WIP decompilation of the Xbox 360 version of Sonic Unleashed.
 
 ## Current Status - Stub
