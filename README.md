@@ -1,7 +1,7 @@
 # Sonic Unleashed/Sonic World Adevnture
 This is a **very early** WIP decompilation of the Xbox 360 version of Sonic Unleashed.
 
-## Current Status
+## Current Status - Stub
 The tool that will be used for this project, IDA Pro, is perfectly capable of creating a disassembly for this game based on its XEX file. However, its decompiler addon is not compatible with all of the instructions used by the Xenon CPU, which is a built-in limitation of the [addon](https://hex-rays.com/products/decompiler/manual/limit.shtml). 
 
 Because of this, about 15.4% (9,750 of 63,229) of the functions used in the game cannot have proper pseudocode created for them. Therefore, a microcode filter for the Hex-Rays Decompiler must be developed to add support for the unimplemented instructions. The list of unimplemented instructions will be given [here.](https://github.com/draiN-NEO/sonic-unleashed-decompilation/blob/main/instructions.md)
