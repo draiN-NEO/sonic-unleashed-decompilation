@@ -30,7 +30,7 @@ Other than that, the executable contains quite a bit of information left over in
 
 
 ## Discord Server
-If you're interested in helping out with the decompilation project, feel free to join the Discord server where I'll share more information about my current findings:
+If you're interested in helping out with the decompilation project, feel free to join the Discord server where I'll share more information about my current findings: https://discord.gg/PB7hkVBswG
 
 ## Disclaimer
 All of the information in this repository is subject to change, such as the tools used for the project and the scope of the goals.
